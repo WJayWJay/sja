@@ -1,0 +1,34 @@
+{
+  "name": "sja",
+  "version": "1.0.0",
+  "description": "simple js animation, simple javascript animation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "cross-env process.env.NODE_ENV=production && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WJayWJay/sja.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "react",
+    "animation"
+  ],
+  "author": "hellokitty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WJayWJay/sja/issues"
+  },
+  "homepage": "https://github.com/WJayWJay/sja#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "cross-env": "^5.2.0",
+    "rollup": "^1.16.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
